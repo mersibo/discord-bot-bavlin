@@ -274,4 +274,4 @@ async def untimeout(ctx, member: nextcord.Member, *, reason):
     await ctx.send(f"Наказание с {member.mention} снято потому, что {reason}")
 
 
-bot.run('MTAzNTY1OTE0NzI2MzM0NDY2MA.GvV66P.I-iGDkUf_6XOeG1JmJ3O54NrjKsmQvBG-Nzsn4')
+bot.run('token')
