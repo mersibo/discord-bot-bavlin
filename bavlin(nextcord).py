@@ -107,11 +107,11 @@ async def hello(ctx):
 
 @bot.command()
 async def info(ctx):
-    await ctx.send("Привет я бот Bavlin, я могу управлять музыкой и не только, если у тебя роль 'админ', или выше, то с моей помощью ты можешь даже банить людей :D")
+    await ctx.send("Привет я бот Bavlin, я могу управлять музыкой и не только. \n А если у тебя роль 'админ', или выше, то с моей помощью ты можешь даже наказывать людей :D")
 
 @bot.command()
 async def help(ctx):
-    await ctx.send("Мои команды: \n\n !play - музыка \n !pause - пауза \n !resume - продолжить \n !stop - прекращения проигрывания \n !disconnect - отключение из войса \n !loop - повтор трека \n !queue - плейлист \n !skip - пропуск текущей песни")
+    await ctx.send("Мои команды: \n\n !hello - приветсвие \n !info - информация обо мне \n !play - музыка \n !pause - пауза \n !resume - продолжить \n !stop - прекращения проигрывания \n !disconnect - отключение из войса \n !loop - повтор трека \n !queue - плейлист \n !skip - пропуск текущей песни \n !panel - панель управления музыкой \n !adminhelp - список доп.команд(только для админов)")
 
 @bot.command()
 @commands.has_permissions(moderate_members=True)
